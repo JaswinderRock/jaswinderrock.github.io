@@ -22,10 +22,7 @@
 <script>
     document.getElementById("purchase").addEventListener("click", function () {
       console.log("button clicked")
-        gtag("event", "purchase", {
-                transaction_id: "T_12345_2",
-                value: 25.4
-          });
+        gtag("event", "email_send");
       });
     </script>
 </body>
