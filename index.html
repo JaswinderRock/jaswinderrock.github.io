@@ -16,16 +16,12 @@
 <meta http-equiv="X-G-Compatible" content="IE=edge">
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
-<h1> Google Analytics Testing</h1>
+<h1> Google Analytics Testing 6768</h1>
 <h3> hello Gtag4</h3>
 <button id="purchase">Hello</button>
 <script>
     document.getElementById("purchase").addEventListener("click", function () {
         gtag("event", "purchase", {
-                // This purchase event uses a different transaction ID
-                // from the previous purchase event so Analytics
-                // doesn't deduplicate the events.
-                // Learn more: https://support.google.com/analytics/answer/12313109
                 transaction_id: "T_12345_2",
                 value: 25.42
                 }]
