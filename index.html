@@ -17,14 +17,17 @@
 <h1>This is a Heading gxusgxs</h1>
 <p>This is a paragraph.</p>
 <h1> Google Analytics Testing 6960</h1>
-<h3 id="phone"> hello Gtag4</h3>
+<button  id="phone"> hello Gtag4</button>
 <button id="email_send">Hello</button>
 <script>
     document.getElementById("purchase").addEventListener("click", function () {
       console.log("button clicked")
         gtag("event", "email_send");
       });
-  
+  document.getElementById("purchase").addEventListener("click", function () {
+      console.log("button phone")
+        gtag("event", "phone");
+      });
     </script>
 </body>
 </html>
