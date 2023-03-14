@@ -17,9 +17,14 @@
 <h1>This is a Heading gxusgxs</h1>
 <p>This is a paragraph.</p>
 <h1> Google Analytics Testing 6960</h1>
+ <button id= "start">Start</button>
 <button  id="phone"> hello Gtag4</button>
 <button id="email_send">Hello</button>
 <script>
+   document.getElementById("start").addEventListener("click", function () {
+      console.log("start clicked")
+        gtag("event", "start");
+      });
     document.getElementById("email_send").addEventListener("click", function () {
       console.log("button clicked")
         gtag("event", "email_send");
